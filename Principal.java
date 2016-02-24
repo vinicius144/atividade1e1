@@ -1,14 +1,15 @@
-package JavaE1;
+package Aula2;
 
 public class Principal {
-
-
-
 	public static void main(String[] args) {
-		Fatura minhafatura;
-		minhafatura = new Fatura();
-		System.out.println(minhafatura.getValorFatura(-1,-1,3 ));
 		
+		Carro meucarro;
+		meucarro = new Carro();
+		meucarro.estado();
+		meucarro.setVelocidadeMaxima(50);
+		meucarro.ligar(true);
+	System.out.println(meucarro.acelerar(100,5));
+
 		
 	}
 }
